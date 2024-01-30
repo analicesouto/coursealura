@@ -1,0 +1,42 @@
+<meta charset="UTF-8">
+
+    <!-- primeiro para resolver em aula, utilizando varíaveis para reescrever um código exibido. -->
+
+<script>
+
+    var ano = 2024;    
+
+    document.write("Ana tem " + (ano - 2003) + " anos<br>");
+    document.write("Clara tem " + (ano - 2005) + " anos<br>");
+
+    ano = 2022
+
+    document.write("Beatriz tem " + (ano - 2000) + " anos<br>");
+
+    var idadeAna = 21;
+    var idadeClara = 19;
+    var idadeBeatriz = 24;
+
+    var media = (idadeAna + idadeClara + idadeBeatriz) / 3;
+
+    document.write("A média das idades é " + Math.round(media));
+
+    var nome = "Ana";
+
+    document.write("<br>A idade de " + nome + " é " + idadeAna);
+
+</script>  
+
+    <!-- exercício para resolver em aula, utilizando varíaveis para reescrever um código exibido. -->
+
+<script>
+
+    var idadeLinda = 15;
+    var idadeGuaraciara = 15;
+    var idadePérola = 13;
+
+    var totalIdades = (idadeLinda + idadeGuaraciara + idadePérola);
+
+    document.write("<br>O resultado é " + Math.round(totalIdades/3));
+
+</script>
