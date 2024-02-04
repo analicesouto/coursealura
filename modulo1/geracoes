@@ -1,0 +1,23 @@
+<meta charset = "UTF=8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+    
+    function mostra(resultado) {
+
+        document.write(resultado);
+        pulaLinha();
+    }
+
+    var anoAtual = 2024;
+    var media = ((anoAtual - 1500)/28);
+
+
+    mostra(Math.round(media));
+
+
+</script>
