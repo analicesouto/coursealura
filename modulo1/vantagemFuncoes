@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<script>
+
+ function pulaLinha() {
+
+    document.write("<br><br>");
+    
+    }   
+
+    function exibe(resultados) {
+
+        document.write(resultados);
+        pulaLinha();
+    }
+
+    var titulo = "Bem-vindo ao meu programa!";
+
+    exibe("<h1>" + titulo + "</h1>");
+
+    exibe("Vocês não sabem o que tive que aprender para fazer isso!");
+
+    exibe("Contudo, assistindo os vídeos e estudando ...");
+
+    exibe("Eu vou mais longe!");
+    
+</script>
