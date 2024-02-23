@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase){
+
+        document.write(frase);
+        pulaLinha
+    }
+
+    function somaDoisNumeros(num1, num2){
+
+    var soma = num1 + num2;
+    mostra(soma);
+
+    }
+
+    somaDoisNumeros(4,4);
+
+
+</script>
