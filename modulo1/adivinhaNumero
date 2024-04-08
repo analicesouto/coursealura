@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numEscolhido = Math.round(Math.random() * 10);
+    console.log(numEscolhido);
+    var num = parseInt(prompt("Digite o número desejado: "));
+
+    if (num == numEscolhido) {
+
+        mostra("Parabéns, é o número correto");
+
+    } else {
+
+        mostra("Você errou, o número pensado foi: "  + numEscolhido);
+    }
+    
+</script>
