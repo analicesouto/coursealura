@@ -4,6 +4,8 @@
     function pulaLinha() {
 
         document.write("<br>");
+        document.write("<br>");
+
     }
 
     function mostra(frase) {
@@ -14,25 +16,33 @@
 
     function sorteia(n) {
 
-        return numeroPensado = Math.round(Math.random() * n);
+        return Math.round(Math.random() * n);
     }
 
     var numeroPensado = sorteia(10);
     console.log(numeroPensado);
 
-    var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+    var tentativas = 1;
 
-    if(chute == numeroPensado) {
+    while(tentativas <= 3) { 
 
-        mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+            var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
 
-    } if (chute < numeroPensado){   
+            if (chute == numeroPensado) {
 
-        mostra("Você errou! O número digitado é menor do que o número escolhido.");
+                mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+                tentativas = 3;
 
-    } else {
+            } else if (chute < numeroPensado){   
 
-        mostra("Você errou! O número digitado é maior do que o número escolhido.");
+                mostra("Você errou! O número digitado é menor do que o número escolhido.");
 
-}
+            } else {
+
+                mostra("Você errou! O número digitado é maior do que o número escolhido.");
+            }
+
+            tentativas++;
+    }
 </script>
+
