@@ -1,0 +1,8 @@
+console.log("Trabalhando com atribuição de variáveis");
+
+const idade = 29;
+let primeiroNome = "Analice";
+const sobrenome = "Souto";
+
+
+console.log(`Meu nome é ${primeiroNome} ${sobrenome}`);
