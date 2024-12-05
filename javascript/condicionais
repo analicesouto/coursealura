@@ -1,0 +1,23 @@
+console.log(`Trabalhando com condicionais`);
+
+const listadeDestinos = new Array(
+    `Salvador`,
+    `São Paulo`,
+    `Rio de Janeiro`
+);
+
+const idadeComprador = 15;
+
+console.log("Destinos possíveis");
+console.log(listadeDestinos);
+
+if (idadeComprador >= 18){
+
+    console.log("Comprador maior de idade");
+    listadeDestinos.splice(1,1);
+
+}else{
+    console.log("Não é maior de idade, não irei vender");  
+} 
+
+console.log(listadeDestinos);
