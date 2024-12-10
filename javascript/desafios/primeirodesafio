@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <script>
+        alert(`Boas vindas ao nosso site!`);
+
+        let nome = "Lua";
+        let idade = 25;
+        let numeroDeVendas = 50;
+        let saldoDisponivel = 1000;
+
+        alert(`Erro! Preencha todos os campos`);
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <script>
+        alert(`Boas vindas ao nosso site!`);
+
+        let mensagemDeErro = "Erro! Preencha todos os campos";
+        alert(mensagemDeErro);
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <script>
+        alert(`Boas vindas ao nosso site!`);
+
+        let nome = prompt("Qual seu nome? ");
+        let idade = prompt("Qual sua idade? ");
+
+        if (idade >= 18) {
+            alert("Pode tirar habilitação!");
+        } else {
+            alert("Não pode tirar habilitação")
+        }
+    </script>
+</body>
+</html>	
