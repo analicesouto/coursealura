@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <script>
+
+        const diadaSemana = prompt("Qual é o dia da semana? ");
+
+        if (diadaSemana == "sábado" || diadaSemana == "domingo") {
+            alert("Bom fim de semana!");
+        } else {
+            alert("Boa semana!");
+        }
+
+
+    </script>
+</body>
+
+</html>
