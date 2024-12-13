@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <script>
+        let cont = 10;
+
+        while (cont >= 0) {
+            console.log(cont);
+            cont--;
+        }
+    </script>
+</body>
+
+</html>
