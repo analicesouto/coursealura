@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <script>
+
+        let cont = 1;
+
+        while (cont <= 20) {
+            console.log(cont);
+            cont++;
+        }
+
+    </script>
+</body>
+
+</html>
