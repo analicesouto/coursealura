@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <script>
+
+        // Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
+
+        const number = prompt("Insira o número escolhido: ");
+
+        if (number >= 1) {
+            alert("Número positivo");
+        } else if (number == 0) {
+            alert("Número neutro");
+        } else {
+            alert("Número negativo");
+        }
+    </script>
+</body>
+
+</html>
