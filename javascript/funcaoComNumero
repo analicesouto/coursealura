@@ -1,0 +1,15 @@
+let numero1 = 10;
+
+let numero2 = 20;
+
+function multiplicarNumero(numero1, numero2) {
+    if (numero1 > numero2) {
+        console.log(numero1);
+    } else if (numero1 < numero2) {
+        console.log(numero2);
+    } else {
+        console.log("não existe numero maior");
+    }
+}
+
+multiplicarNumero(numero1, numero2);
