@@ -1,0 +1,7 @@
+let nome = "Ana";
+
+function ola(nome){
+    console.log(`Ola ${nome}`);
+}
+
+ola(nome);
