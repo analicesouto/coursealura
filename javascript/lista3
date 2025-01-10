@@ -1,0 +1,65 @@
+// // Crie uma função que converte um valor em dólar, passado como parâmetro, e retorna o valor equivalente em reais. Para isso, considere a cotação do dólar igual a R$4,80.
+let real = 5.00;
+dolar = 4.80;
+
+function conversao(real, dolar){
+    let valor =  parseFloat((dolar * real));
+    return (valor);
+}
+
+console.log(conversao(real, dolar));
+conversao(real, dolar);
+
+// Crie uma função que calcule o índice de massa corporal (IMC) de uma pessoa, a partir de sua altura, em metros, e peso, em quilogramas, que serão recebidos como parâmetro.
+
+const altura = 1.66
+const peso = 54;
+
+function indiceMassa(altura, peso){
+    let imc = peso / (altura * altura);
+    return (imc);
+}
+
+indiceMassa(altura, peso);
+console.log(indiceMassa(altura, peso).toFixed(2));
+
+// Crie uma função que mostre na tela a área e o perímetro de uma sala retangular, utilizando altura e largura que serão dadas como parâmetro.
+
+const altura = 2.00;
+const largura = 35;
+
+function perimetro(altura, largura){
+    let area = 2 * (altura * largura) 
+    return area;
+}
+
+perimetro(altura, largura);
+console.log(perimetro(altura, largura).toFixed(2));
+
+// Crie uma função que mostre na tela a área e o perímetro de uma sala circular, utilizando seu raio que será fornecido como parâmetro. Considere Pi = 3,14.
+// Área: A = \pi r^2, Perímetro: C = 2 \pi r
+
+const raio = 12;
+
+function perimetro(raio){
+    let area = (3.14 * (raio)**2);
+    return area;
+}
+
+perimetro(raio)
+console.log(perimetro(raio).toFixed(2));
+
+// Crie uma função que mostre na tela a tabuada de um número dado como parâmetro.
+
+numero = 2;
+cont = 1;
+
+function tabuada(numero){
+    while (cont < 10){ 
+        let tab = numero * cont;
+        console.log(tab);
+        cont ++
+    } 
+}
+tabuada(numero);
+
