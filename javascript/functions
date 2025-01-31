@@ -1,3 +1,4 @@
 let linguagensDeProgramacao = ["Java", "Ruby", "GoLang"];
 
-console.log(linguagensDeProgramacao[0]);
+console.log(linguagensDeProgramacao[2]);
+
